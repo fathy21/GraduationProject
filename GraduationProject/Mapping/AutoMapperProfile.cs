@@ -8,6 +8,7 @@ namespace GraduationProject.Mapping
     {
         public AutoMapperProfile()
         {
+            //mapping 
             CreateMap<AddPatientDto , Patient>().ReverseMap();
             CreateMap<Patient, PatientDto>().ReverseMap();
             CreateMap<MedicalStaff, GetAllMedicalStaffForPateintDto>().ReverseMap();
